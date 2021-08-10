@@ -10,9 +10,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameFramework.Editor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F6278824-EF26-0B19-80EC-89090458C325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "..\UnitTestProject\UnitTestProject.csproj", "{7C20DCE1-E6DA-4E84-9CEC-93626D43CDFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "..\UnitTestProject\UnitTestProject", "..\UnitTestProject\UnitTestProject.csproj", "{7C20DCE1-E6DA-4E84-9CEC-93626D43CDFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonUnity.Shared", "..\PokemonUnity.Shared\PokemonUnity.Shared.csproj", "{C4BD7AC0-1333-4D62-A6CD-881A1806FFAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "..\PokemonUnity.Shared\PokemonUnity.Shared", "..\PokemonUnity.Shared\PokemonUnity.Shared.csproj", "{C4BD7AC0-1333-4D62-A6CD-881A1806FFAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1909DF4C-3567-4A1F-8BB6-C2DE6584088D}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,9 +24,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\veekun-pokedex.sql = ..\veekun-pokedex.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFramework", "..\GameFramework\GameFramework.csproj", "{109D7F39-79AB-4862-9F73-0B8C638930C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "..\GameFramework\GameFramework", "..\GameFramework\GameFramework.csproj", "{109D7F39-79AB-4862-9F73-0B8C638930C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonUnity.Offline", "..\PokemonUnity.Offline\PokemonUnity.Offline.csproj", "{5053C6D2-19B5-48BB-BF24-5D23804BB78F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "..\PokemonUnity.Offline\PokemonUnity.Offline", "..\PokemonUnity.Offline\PokemonUnity.Offline.csproj", "{5053C6D2-19B5-48BB-BF24-5D23804BB78F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,9 +73,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {138B4F68-AFD1-4373-8062-A24726EE2C3E}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj

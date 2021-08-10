@@ -131,17 +131,17 @@ public class AddThePokemon : MonoBehaviour
 	
     public void starterpokemon()
     {
-        if (Input.GetKeyDown(KeyCode.Q)) //If user input the keyboard(Q)
+        if (UnityEngine.Input.GetKeyDown(KeyCode.Q)) //If user UnityEngine.Input the keyboard(Q)
         {
             Starters = Pokemons.EEVEE; //Use Eevee as starter pokemon
             pokemonChoices();
         }
-        if (Input.GetKeyDown(KeyCode.W)) //If user input the keyboard(W)
+        if (UnityEngine.Input.GetKeyDown(KeyCode.W)) //If user UnityEngine.Input the keyboard(W)
         {               
             Starters = Pokemons.PIKACHU; //Use Pikachu as starter pokemon
             pokemonChoices();
         }
-        if (Input.GetKeyDown(KeyCode.E)) //If user input the keyboard(W)
+        if (UnityEngine.Input.GetKeyDown(KeyCode.E)) //If user UnityEngine.Input the keyboard(W)
         {               
             //Starters = Pokemons.PIKACHU; //Use INSPECTOR as starter pokemon
             pokemonChoices();
