@@ -1,20 +1,20 @@
 fileFormatVersion: 2
-guid: c21b2e2ec9d0f204bbdaed67165a2f98
+guid: c0eb63c95b396134bbb331316313db8e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Nonestair_te
+    2100000: NoneWatersEd
     2300000: //RootNode
     3300000: //RootNode
-    4300000: stairRail
+    4300000: cliffCornerO
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Nonestair_te
-    second: {fileID: 2100000, guid: a4881149e36003143b251d58faaf4f49, type: 2}
+      name: NoneWatersEd
+    second: {fileID: 2100000, guid: 2a30abf278399bf47ad54ad3ac064cec, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
